@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "id": "24e5",
+      "name": "om jain",
+      "email": "omjain21@gmail.com",
+      "password": "7073Jayesh",
+      "role": "faculty"
+    },
+    {
+      "id": "9507",
+      "name": "jayesh ojha",
+      "email": "jayeshojha2002@gmail.com",
+      "password": "7073Jayesh",
+      "role": "admin"
+    }
+  ],
+  "exams": [
+    {
+      "id": "1",
+      "title": "React Basics",
+      "questions": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "2",
+      "title": "JavaScript Fundamentals",
+      "questions": [
+        3,
+        4
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "examId": 1,
+      "question": "What is React?",
+      "options": [
+        "Library",
+        "Framework",
+        "Language"
+      ],
+      "answer": "Library"
+    },
+    {
+      "id": "2",
+      "examId": 1,
+      "question": "What is JSX?",
+      "options": [
+        "JavaScript XML",
+        "Java Syntax Extension",
+        "Java Xtreme"
+      ],
+      "answer": "JavaScript XML"
+    },
+    {
+      "id": "3",
+      "examId": 2,
+      "question": "What does 'const' do in JavaScript?",
+      "options": [
+        "Declares a variable",
+        "Creates a function",
+        "Defines a class"
+      ],
+      "answer": "Declares a variable"
+    },
+    {
+      "id": "4",
+      "examId": 2,
+      "question": "Which keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function"
+      ],
+      "answer": "function"
+    }
+  ],
+  "results": []
+}
